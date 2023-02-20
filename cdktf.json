@@ -5,7 +5,8 @@
   "sendCrashReports": "false",
   "terraformProviders": [
     "aws@~> 4.55.0",
-    "local@~> 2.3.0"
+    "local@~> 2.3.0",
+    "cloudinit"
   ],
   "terraformModules": [
     "terraform-aws-modules/lambda/aws"
